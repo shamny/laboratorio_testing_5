@@ -22,5 +22,5 @@
       "scenes": ["scenes"]
     }
   },
-  "include": ["./src/**/*", "./config/test/setup.ts", "./global.types.d.ts"]
+  "include": ["./src/**/*", "config/test/setup-after.ts", "./global.types.d.ts"]
 }

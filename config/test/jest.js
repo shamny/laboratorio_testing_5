@@ -1,7 +1,7 @@
 module.exports = {
-  rootDir: '../../',
+  rootDir: '../../', //ruta de nuestra raiz ppal del proyecto
   preset: 'ts-jest',
   restoreMocks: true,
   moduleDirectories: ['<rootDir>/src', 'node_modules'],
-  setupFilesAfterEnv: ['<rootDir>/config/test/setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/config/test/setup-after.ts'],
 };
